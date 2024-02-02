@@ -1,3 +1,4 @@
+// This is where I mocked up how I want to format the page
 export default function Home() {
 	return (
 		<>
@@ -28,18 +29,18 @@ export default function Home() {
 					<h2>Statement</h2>
 					<p>Here is some text about the statement</p>
 				</div>
-				<ul className="flex flex-col justify-start items-start" role="list">
+				<ul className="flex flex-col justify-start items-start">
 					<li>Product</li>
 					<li>Shopify</li>
 					<li>Pricing</li>
 					<li>Blog</li>
 				</ul>
-				<ul className="flex flex-col justify-start items-start" role="list">
+				<ul className="flex flex-col justify-start items-start">
 					<li>Company</li>
 					<li>About Us</li>
 					<li>Career</li>
 				</ul>
-				<ul className="flex flex-col justify-start items-start" role="list">
+				<ul className="flex flex-col justify-start items-start">
 					<li>Support</li>
 					<li>Terms</li>
 					<li>Privacy</li>
