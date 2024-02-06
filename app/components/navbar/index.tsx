@@ -2,8 +2,8 @@ const Navbar = ({ logo }: { logo: string }) => {
 	return (
 		<>
 			{/* Navbar */}
-			<header className="sticky top-0 z-50 w-full border-b bg-white dark:bg-black ">
-				<div className="flex h-16 items-center px-4 sm:px-8 lg:px-16">
+			<header className="sticky top-0 z-50 w-full border-b bg-white dark:bg-black hidden sm:block">
+				<div className="flex h-16 items-center p-[50px]">
 					<div className="mx-auto w-full space-y-20">
 						<div className="flex justify-between">
 							{/* Left Side Container */}
@@ -38,6 +38,7 @@ const Navbar = ({ logo }: { logo: string }) => {
 					</div>
 				</div>
 			</header>
+			{/* Mobile Navbar */}
 		</>
 	)
 }

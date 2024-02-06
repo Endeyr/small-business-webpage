@@ -1,5 +1,6 @@
 import Container from './components/container'
 import Layout from './components/layout'
+import Input from './ui/input';
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			</Container>
 			<Container className="bg-blue-500">
 				Call to Action form / login / register
+				<Input />
 			</Container>
 		</Layout>
 	)
