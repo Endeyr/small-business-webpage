@@ -83,3 +83,9 @@ SmallBizWeb is a basic website platform tailored for small businesses to establi
    - Consider options for hosting, infrastructure, and maintenance.
 
 By following this approach, SmallBizWeb can quickly launch its MVP, gather valuable insights, and evolve into a robust platform tailored for small businesses' needs.
+
+
+## TODO
+
+- get images for backgrounds
+- come up with basic ideas for the example business

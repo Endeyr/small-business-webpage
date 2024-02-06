@@ -1,50 +1,22 @@
+import Container from './components/container'
+import Layout from './components/layout'
+
 export default function Home() {
 	return (
-		<>
-			<nav className="bg-green-500 w-full flex gap-3 justify-between items-center p-[50px]">
-				<div>Logo</div>
-				<div>Nav Links</div>
-				<div>Call to Action Button</div>
-			</nav>
-			<main className="bg-gray-500 flex flex-col items-center justify-start">
-				<div className="bg-blue-500 flex w-full min-h-screen items-center justify-center  p-[50px]">
-					Hero Section - big background image, heading, paragraph, button
-				</div>
-				<div className="bg-red-500 flex w-full min-h-screen items-center justify-center p-[50px]">
-					3 Key Services / Products ie What You Do
-				</div>
-				<div className="bg-blue-500 flex w-full min-h-screen items-center justify-center p-[50px]">
-					Who You Are
-				</div>
-				<div className="bg-red-500 flex w-full min-h-screen items-center justify-center p-[50px]">
-					Testimonials / Reviews / Case Studies, 1 to 4 different ones
-				</div>
-				<div className="bg-blue-500 flex w-full min-h-screen items-center justify-center p-[50px]">
-					Call to Action form / login / register
-				</div>
-			</main>
-			<nav className="bg-green-500 w-full flex gap-3 justify-between items-start p-[50px]">
-				<div className="flex flex-col justify-start items-start">
-					<h2>Statement</h2>
-					<p>Here is some text about the statement</p>
-				</div>
-				<ul className="flex flex-col justify-start items-start" role="list">
-					<li>Product</li>
-					<li>Shopify</li>
-					<li>Pricing</li>
-					<li>Blog</li>
-				</ul>
-				<ul className="flex flex-col justify-start items-start" role="list">
-					<li>Company</li>
-					<li>About Us</li>
-					<li>Career</li>
-				</ul>
-				<ul className="flex flex-col justify-start items-start" role="list">
-					<li>Support</li>
-					<li>Terms</li>
-					<li>Privacy</li>
-				</ul>
-			</nav>
-		</>
+		<Layout>
+			<Container className="bg-blue-500" id="hero-section">
+				Hero Section - big background image, heading, paragraph, button
+			</Container>
+			<Container className="bg-red-500">
+				3 Key Services / Products ie What You Do
+			</Container>
+			<Container className="bg-blue-500">Who You Are</Container>
+			<Container className="bg-red-500">
+				Testimonials / Reviews / Case Studies, 1 to 4 different ones
+			</Container>
+			<Container className="bg-blue-500">
+				Call to Action form / login / register
+			</Container>
+		</Layout>
 	)
 }
