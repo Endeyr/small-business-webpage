@@ -2,7 +2,7 @@ const Footer = () => {
 	return (
 		<>
 			{/* Computer footer */}
-			<footer className="bg-green-500 w-full sm:flex gap-3 justify-between items-start p-[50px] hidden">
+			<footer className="dark:bg-black dark:text-white bg-white text-gray-800 w-full sm:flex gap-3 justify-between items-start p-[50px] hidden">
 				<div className="flex flex-col justify-start items-start">
 					<h2>Statement</h2>
 					<p>Here is some text about the statement</p>

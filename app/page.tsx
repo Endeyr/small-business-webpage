@@ -1,24 +1,18 @@
-import Container from './components/container'
+import CallToAction from './components/call-to-action'
+import Hero from './components/hero'
+import Identity from './components/identity'
 import Layout from './components/layout'
-import Input from './ui/input';
+import Services from './components/services'
+import Testimonials from './components/testimonials'
 
 export default function Home() {
 	return (
 		<Layout>
-			<Container className="bg-blue-500" id="hero-section">
-				Hero Section - big background image, heading, paragraph, button
-			</Container>
-			<Container className="bg-red-500">
-				3 Key Services / Products ie What You Do
-			</Container>
-			<Container className="bg-blue-500">Who You Are</Container>
-			<Container className="bg-red-500">
-				Testimonials / Reviews / Case Studies, 1 to 4 different ones
-			</Container>
-			<Container className="bg-blue-500">
-				Call to Action form / login / register
-				<Input />
-			</Container>
+			<Hero />
+			<Services />
+			<Identity />
+			<Testimonials />
+			<CallToAction />
 		</Layout>
 	)
 }
