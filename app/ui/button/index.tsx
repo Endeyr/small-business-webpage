@@ -23,19 +23,32 @@ type BaseButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 // Overload signatures for button component
 type ButtonComponent = {
 	(
-		props: BaseButtonProps & { variant?: 'primary'; colors?: PrimaryColors }
+		props: BaseButtonProps & {
+			variant?: 'primary'
+			colors?: PrimaryColors
+			className: string
+		}
 	): JSX.Element
 	(
-		props: BaseButtonProps & { variant: 'secondary'; colors?: SecondaryColors }
+		props: BaseButtonProps & {
+			variant: 'secondary'
+			colors?: SecondaryColors
+			className: string
+		}
 	): JSX.Element
 	(
-		props: BaseButtonProps & { variant: 'tertiary'; colors?: TertiaryColors }
+		props: BaseButtonProps & {
+			variant: 'tertiary'
+			colors?: TertiaryColors
+			className: string
+		}
 	): JSX.Element
 }
 
 const Button: ButtonComponent = ({
 	variant = 'primary',
 	colors = {},
+	className,
 	...props
 }) => {
 	// Base Classes
@@ -69,7 +82,7 @@ const Button: ButtonComponent = ({
 
 	// npm i tailwind-merge
 	// Merge the base classes with the variant classes and any additional classes
-	const mergedClasses = twMerge([baseClasses, variantClasses])
+	const mergedClasses = twMerge([baseClasses, variantClasses, className])
 
 	return <button className={mergedClasses} {...props} />
 }
