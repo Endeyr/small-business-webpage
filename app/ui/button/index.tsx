@@ -40,7 +40,7 @@ type ButtonComponent = {
 		props: BaseButtonProps & {
 			variant: 'tertiary'
 			colors?: TertiaryColors
-			className: string
+			className?: string
 		}
 	): JSX.Element
 }
@@ -48,7 +48,7 @@ type ButtonComponent = {
 const Button: ButtonComponent = ({
 	variant = 'primary',
 	colors = {},
-	className,
+	className = '',
 	...props
 }) => {
 	// Base Classes
