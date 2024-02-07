@@ -1,7 +1,8 @@
 import Button from '@/app/ui/button'
 import Link from 'next/link'
-import Services from '../services/index'
+import { GiWolfHowl } from 'react-icons/gi'
 
+// npm i react-icons
 const Navbar = ({ logo }: { logo: string }) => {
 	return (
 		<>
@@ -11,13 +12,14 @@ const Navbar = ({ logo }: { logo: string }) => {
 					<div className="mx-auto w-full space-y-20">
 						<div className="flex justify-between">
 							{/* Left Side Container */}
-							<div className="flex flex-1 items-center justify-start">
+							<div className="flex flex-1 items-center justify-start gap-4">
 								<Link
 									href="/"
 									className="inline-flex h-10 items-center justify-center text-lg font-bold text-gray-800 dark:text-white hover:text-[#4078c8]"
 								>
-									{logo}
+									{GiWolfHowl ? <GiWolfHowl size={70} color="#4078c8" /> : logo}
 								</Link>
+								<h2 className="dark:text-white">Apollo&apos;s Rescue</h2>
 							</div>
 							{/* Right Side Container */}
 							<div className="flex flex-1 items-center justify-end">
