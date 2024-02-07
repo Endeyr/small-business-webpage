@@ -1,3 +1,7 @@
+import Button from '@/app/ui/button'
+import Link from 'next/link'
+import Services from '../services/index'
+
 const Navbar = ({ logo }: { logo: string }) => {
 	return (
 		<>
@@ -8,30 +12,48 @@ const Navbar = ({ logo }: { logo: string }) => {
 						<div className="flex justify-between">
 							{/* Left Side Container */}
 							<div className="flex flex-1 items-center justify-start">
-								<a
+								<Link
 									href="/"
-									className="inline-flex h-10 items-center justify-center text-lg font-bold text-gray-800 dark:text-white"
+									className="inline-flex h-10 items-center justify-center text-lg font-bold text-gray-800 dark:text-white hover:text-[#4078c8]"
 								>
 									{logo}
-								</a>
+								</Link>
 							</div>
 							{/* Right Side Container */}
 							<div className="flex flex-1 items-center justify-end">
 								<nav className="flex items-center space-x-1 gap-4">
-									<a
-										href="#hero-section"
-										className="h-10 w-full p-2 text-gray-800 hover:text-[#ff0000] dark:text-white"
-										target="_blank"
+									<Link
+										href="/services"
+										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
+									>
+										Services
+									</Link>
+									<Link
+										href="/about"
+										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
 									>
 										About
-									</a>
-									<a
-										href="#"
+									</Link>
+									<Link
+										href="/contact"
 										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
-										target="_blank"
 									>
 										Contact
-									</a>
+									</Link>
+									<div className="h-13">
+										<Button
+											className="text-md p-2"
+											variant="secondary"
+											colors={{
+												text: 'text-[#4078c8]',
+												hoverBorder: 'hover:border-[#4078c8]',
+												hoverBg: 'hover:bg-[#4078c8]',
+												focusRing: 'focus:ring-[#4078c8]',
+											}}
+										>
+											Donate
+										</Button>
+									</div>
 								</nav>
 							</div>
 						</div>
