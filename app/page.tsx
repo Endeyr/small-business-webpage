@@ -7,12 +7,12 @@ import Testimonials from './components/testimonials'
 
 export default function Home() {
 	return (
-		<Layout>
+		<>
 			<Hero />
 			<Services />
 			<Identity />
 			<Testimonials />
 			<CallToAction />
-		</Layout>
+		</>
 	)
 }
