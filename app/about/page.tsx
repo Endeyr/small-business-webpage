@@ -1,12 +1,13 @@
 import AboutImg from '@/public/wolf-about.webp'
 import Image from 'next/image'
+import Link from 'next/link'
 import Container from '../components/container'
 
 const AboutPage = () => {
 	return (
 		<Container className="flex-col justify-start">
 			<h2 className="font-bold capitalize text-xl text-center w-full">
-				About Apollo&apos;s Rescue
+				About Us
 			</h2>
 			<div className="grid grid-cols-2 gap-4 justify-center items-start">
 				<div className="mt-2">
@@ -36,9 +37,11 @@ const AboutPage = () => {
 						difference in the lives of the wolves we serve.
 					</p>
 					<p>
-						Take action today and become a part of Apollo&apos;s Rescue family.
-						Together, we can make a lasting impact on the lives of wolves in
-						need.
+						<Link className="text-blue-500" href="#">
+							Take action today
+						</Link>{' '}
+						and become a part of Apollo&apos;s Rescue family. Together, we can
+						make a lasting impact on the lives of wolves in need.
 					</p>
 				</div>
 			</div>

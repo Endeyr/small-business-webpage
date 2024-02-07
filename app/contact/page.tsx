@@ -8,7 +8,7 @@ const ContactPage = () => {
 	return (
 		<Container className="flex-col md:space-y-5">
 			<h2 className="font-bold capitalize text-xl text-center w-full">
-				Contact Apollo&apos;s Rescue
+				Contact Us
 			</h2>
 			<div className="flex flex-col justify-evenly gap-4">
 				<div className="flex flex-col gap-2 justify-center items-center">
