@@ -86,6 +86,13 @@ By following this approach, SmallBizWeb can quickly launch its MVP, gather valua
 
 ## TODO
 
-- get images for backgrounds
-- come up with basic ideas for the example business
+- get images for backgrounds + logo // AI generated?
+- come up with basic ideas for the example business // Thinking wildlife rescue
 - add footer / nav for mobile
+- fill out footer
+- fill out services, about, contact pages // AI generated
+- fill out sections on home page // AI generated?
+- create donate pop out model
+- login / out features?
+- chat pop out model for AI?
+- Look at other sites for ideas on other features
