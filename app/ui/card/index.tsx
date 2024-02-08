@@ -56,7 +56,7 @@ export const ContentCard = ({
 				{link && (
 					<a
 						href={link.url}
-						className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-emerald-500 hover:text-emerald-500"
+						className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#4078c8] hover:text-[#4078c8]"
 					>
 						{link.text}
 					</a>

@@ -59,20 +59,20 @@ const Button: ButtonComponent = ({
 		switch (variant) {
 			case 'primary':
 				return `border border-transparent py-3 text-white 
-        ${colorProps.bg || 'bg-emerald-500'} 
-        ${colorProps.hoverBg || 'hover:bg-emerald-600'}  
-        ${colorProps.focusRing || 'focus:ring-emerald-500'}`
+        ${colorProps.bg || 'bg-[#4078c8]'} 
+        ${colorProps.hoverBg || 'hover:bg-[#3766a9]'}  
+        ${colorProps.focusRing || 'focus:ring-[#4078c8]'}`
 			case 'secondary':
 				return `border-2 border-gray-200 py-[0.688rem] hover:text-white 
-        ${colorProps.text || 'text-emerald-500'} 
-        ${colorProps.hoverBorder || 'hover:border-emerald-500'} 
-        ${colorProps.hoverBg || 'hover:bg-emerald-500'} 
-        ${colorProps.focusRing || 'focus:ring-emerald-500'}`
+        ${colorProps.text || 'text-[#4078c8]'} 
+        ${colorProps.hoverBorder || 'hover:border-[#4078c8]'} 
+        ${colorProps.hoverBg || 'hover:bg-[#4078c8]'} 
+        ${colorProps.focusRing || 'focus:ring-[#4078c8]'}`
 			case 'tertiary':
 				return `border border-transparent py-3 underline-offset-4 ring-offset-white hover:underline 
-        ${colorProps.text || 'text-emerald-500'} 
-        ${colorProps.hoverText || 'hover:text-emerald-700'} 
-        ${colorProps.focusRing || 'focus:ring-emerald-500'}`
+        ${colorProps.text || 'text-[#4078c8]'} 
+        ${colorProps.hoverText || 'hover:text-[#203c64]'} 
+        ${colorProps.focusRing || 'focus:ring-[#4078c8]'}`
 			default:
 				return ''
 		}
