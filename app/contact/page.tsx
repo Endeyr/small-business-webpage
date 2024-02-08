@@ -21,14 +21,26 @@ const ContactPage = () => {
 					</p>
 					<h3 className="text-center font-bold">Contact Form</h3>
 					<form className="grid grid-cols-2 justify-center items-center gap-2">
-						<Input name="first name" label="First name" placeholder="John" />
-						<Input name="last name" label="Last name" placeholder="Smith" />
 						<Input
+							type="text"
+							name="first name"
+							label="First name"
+							placeholder="John"
+						/>
+						<Input
+							type="text"
+							name="last name"
+							label="Last name"
+							placeholder="Smith"
+						/>
+						<Input
+							type="tel"
 							name="phone"
 							label="Phone number"
 							placeholder="555-555-5555"
 						/>
 						<Input
+							type="email"
 							name="email"
 							label="Email"
 							placeholder="johnsmith@email.com"
