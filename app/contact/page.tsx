@@ -55,7 +55,7 @@ const ContactPage = () => {
 							<textarea
 								rows={4}
 								cols={100}
-								className="block w-full rounded-md border-gray-200 px-4 py-4 text-sm focus:border-emerald-500 focus:ring-emerald-500 disabled:pointer-events-none disabled:opacity-50"
+								className="block w-full rounded-md border-gray-200 px-4 py-4 text-sm focus:border-[#4078c8] focus:ring-[#4078c8] disabled:pointer-events-none disabled:opacity-50"
 								name="message"
 								placeholder="I am reaching out to volunteer. These are my available times."
 							></textarea>
