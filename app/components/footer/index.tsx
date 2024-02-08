@@ -58,9 +58,10 @@ const Footer = () => {
 				<div className="flex flex-col justify-start items-start gap-2 w-full h-full">
 					<h2 className="font-bold capitalize text-xl">Services</h2>
 					<ul className="flex flex-col" role="list">
-						<li>Support</li>
-						<li>Terms</li>
-						<li>Privacy</li>
+						<li>Sanctuary & Research</li>
+						<li>Medical Care</li>
+						<li>Education Programs</li>
+						<li>Community Engagement</li>
 					</ul>
 				</div>
 				<div className="flex flex-col justify-start items-start gap-2 w-full h-full">
