@@ -86,10 +86,7 @@ By following this approach, SmallBizWeb can quickly launch its MVP, gather valua
 
 ## TODO
 
-- get images for backgrounds // AI generated?
 - add footer / nav for mobile
-- fill out footer
-- fill out services // AI generated
 - fill out sections on home page // AI generated?
 - create donate pop out model or full page?
 - login / out features?
