@@ -1,4 +1,4 @@
-import AboutImg from '@/public/wolf-about.webp'
+import AboutImg from '@/public/images/about/wolf-about.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import Container from '../components/container'

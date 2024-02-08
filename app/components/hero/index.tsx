@@ -1,4 +1,4 @@
-import heroBg from '@/public/hero-background.webp'
+import heroBg from '@/public/images/hero/hero-background.webp'
 import Container from '../container'
 
 const Hero = () => {
