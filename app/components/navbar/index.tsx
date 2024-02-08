@@ -19,7 +19,6 @@ const Navbar = ({ logo }: { logo: string }) => {
 								>
 									{GiWolfHowl ? <GiWolfHowl size={70} color="#4078c8" /> : logo}
 								</Link>
-								<h2 className="dark:text-white">Apollo&apos;s Rescue</h2>
 							</div>
 							{/* Right Side Container */}
 							<div className="flex flex-1 items-center justify-end">
