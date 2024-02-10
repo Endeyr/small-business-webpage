@@ -86,9 +86,11 @@ By following this approach, SmallBizWeb can quickly launch its MVP, gather valua
 
 ## TODO
 
-- add footer / nav for mobile
+- mobile friendly each page
 - fill out sections on home page // AI generated?
 - create donate pop out model or full page?
 - login / out features?
 - chat pop out model for AI?
 - Look at other sites for ideas on other features
+- upload to vercel
+- add analytics, meta data, seo optimization
