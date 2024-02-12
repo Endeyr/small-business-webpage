@@ -10,23 +10,23 @@ const Hero = () => {
 			id="hero-section"
 		>
 			<div className="w-1/2 h-full flex flex-col justify-between gap-4 items-start">
-				<h2 className="font-bold outline-black capitalize text-4xl text-center w-full my-4 text-yellow-200">
+				<h2 className="font-bold outline-black capitalize text-4xl text-center w-full my-4">
 					Welcome to Apollo&apos;s Rescue
 				</h2>
-				<p className="font-semibold text-yellow-200">
+				<p>
 					At Apollo&apos;s Rescue, we believe in the power of compassion to
 					transform lives. Nestled atop the majestic Mount Olympus, our
 					sanctuary stands as a beacon of hope for wolves in need. From those
 					scarred by adversity to those seeking solace, we offer refuge to every
 					soul that crosses our path.
 				</p>
-				<p className="font-semibold text-yellow-200">
+				<p>
 					With a commitment to their well-being etched in our hearts, we provide
 					more than just shelter; we offer healing, love, and a second chance at
 					life. Join us in our mission to protect these majestic creatures, as
 					we strive to preserve their spirit for generations to come.
 				</p>
-				<p className="font-semibold text-yellow-200">
+				<p>
 					Step into the realm of Apollo&apos;s Rescue, where every howl echoes
 					with resilience, and every paw print tells a story of survival.
 					Together, let us embark on a journey of compassion, understanding, and
