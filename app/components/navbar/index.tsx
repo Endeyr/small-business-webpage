@@ -25,19 +25,19 @@ const Navbar = ({ logo }: { logo: string }) => {
 								<nav className="flex items-center space-x-1 gap-4">
 									<Link
 										href="/services"
-										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
+										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white rm-text-shadow"
 									>
 										Services
 									</Link>
 									<Link
 										href="/about"
-										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
+										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white rm-text-shadow"
 									>
 										About
 									</Link>
 									<Link
 										href="/contact"
-										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white"
+										className="h-10 w-full p-2 text-gray-800 hover:text-[#4078c8] dark:text-white rm-text-shadow"
 									>
 										Contact
 									</Link>

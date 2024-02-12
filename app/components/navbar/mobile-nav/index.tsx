@@ -47,23 +47,26 @@ const MobileNav = ({ logo }: { logo: string }) => {
 			>
 				<Link
 					href="/services"
-					className="text-white border-b w-full text-center py-2"
+					className="text-white border-b w-full text-center py-2 rm-text-shadow"
 				>
 					Services
 				</Link>
 				<Link
 					href="/about"
-					className="text-white border-b w-full text-center py-2"
+					className="text-white border-b w-full text-center py-2 rm-text-shadow"
 				>
 					About
 				</Link>
 				<Link
 					href="/contact"
-					className="text-white border-b w-full text-center py-2"
+					className="text-white border-b w-full text-center py-2 rm-text-shadow"
 				>
 					Contact
 				</Link>
-				<Link href="#" className="text-white border-b w-full text-center py-2">
+				<Link
+					href="#"
+					className="text-white border-b w-full text-center py-2 rm-text-shadow"
+				>
 					Donate
 				</Link>
 			</nav>
