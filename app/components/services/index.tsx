@@ -3,7 +3,7 @@ import Container from '../container'
 
 const Services = () => {
 	return (
-		<Container className="bg-gray-100 flex flex-col w-full h-screen justify-evenly items-center">
+		<Container className="bg-gray-100 flex flex-col w-full justify-evenly items-center">
 			<h2 className="font-bold outline-black capitalize text-4xl text-center w-full">
 				Services
 			</h2>
