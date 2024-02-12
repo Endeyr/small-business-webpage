@@ -1,9 +1,9 @@
 **MVP**
 
-**Product Name:** SmallBizWeb
+**Product Name:** Apollo's Rescue
 
 **Description:**
-SmallBizWeb is a basic website platform tailored for small businesses to establish their online presence quickly and affordably. The platform offers essential features to showcase products, services, and contact information, helping small businesses attract customers and increase visibility in the digital space.
+Apollo's Rescue is a basic website platform tailored for small businesses to establish their online presence quickly and affordably. The platform offers essential features to showcase products, services, and contact information, helping small businesses attract customers and increase visibility in the digital space.
 
 **Key Features:**
 
@@ -82,7 +82,7 @@ SmallBizWeb is a basic website platform tailored for small businesses to establi
    - Plan for scalability to accommodate growth in user base and feature requirements.
    - Consider options for hosting, infrastructure, and maintenance.
 
-By following this approach, SmallBizWeb can quickly launch its MVP, gather valuable insights, and evolve into a robust platform tailored for small businesses' needs.
+By following this approach, Apollo's Rescue can quickly launch its MVP, gather valuable insights, and evolve into a robust platform tailored for small businesses' needs.
 
 ## TODO
 
