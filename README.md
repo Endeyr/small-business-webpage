@@ -86,8 +86,8 @@ By following this approach, SmallBizWeb can quickly launch its MVP, gather valua
 
 ## TODO
 
+- add form functionality
 - mobile friendly each page
-- fill out sections on home page // AI generated?
 - create donate pop out model or full page?
 - login / out features?
 - chat pop out model for AI?
