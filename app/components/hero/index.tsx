@@ -1,6 +1,7 @@
 import Button from '@/app/ui/button'
 import heroBg from '@/public/images/hero/hero-background.webp'
 import Container from '../container'
+import Modal from '@/app/ui/modal';
 
 const Hero = () => {
 	return (
@@ -33,17 +34,7 @@ const Hero = () => {
 					unwavering dedication to our furry friends. Welcome to our sanctuary.
 					Welcome to Apollo&apos;s Rescue. Help us help them.
 				</p>
-				<Button
-					className="text-md p-2 mt-2"
-					variant="primary"
-					colors={{
-						bg: 'bg-[#4078c8]',
-						hoverBg: 'hover:bg-[#4078c8]',
-						focusRing: 'focus:ring-[#4078c8]',
-					}}
-				>
-					Donate
-				</Button>
+				<Modal buttonVariant="primary" />
 			</div>
 		</Container>
 	)

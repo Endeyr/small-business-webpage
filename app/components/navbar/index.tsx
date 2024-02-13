@@ -1,4 +1,5 @@
 import Button from '@/app/ui/button'
+import Modal from '@/app/ui/modal'
 import Link from 'next/link'
 import { GiWolfHowl } from 'react-icons/gi'
 
@@ -42,18 +43,7 @@ const Navbar = ({ logo }: { logo: string }) => {
 										Contact
 									</Link>
 									<div className="h-13">
-										<Button
-											className="text-md p-2"
-											variant="secondary"
-											colors={{
-												text: 'text-[#4078c8]',
-												hoverBorder: 'hover:border-[#4078c8]',
-												hoverBg: 'hover:bg-[#4078c8]',
-												focusRing: 'focus:ring-[#4078c8]',
-											}}
-										>
-											Donate
-										</Button>
+										<Modal buttonVariant="secondary" />
 									</div>
 								</nav>
 							</div>
