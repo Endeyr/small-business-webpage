@@ -5,12 +5,13 @@ import Container from '../container'
 const Identity = () => {
 	return (
 		<Container className="bg-white flex-col justify-center gap-2">
-			<div className="grid grid-col-3 w-full">
+			<div className="grid grid-col-3 w-full items-center justify-center">
 				<Image
 					src={IdentityImg.src}
 					alt="Five wolves running in the woods"
 					width={700}
 					height={350}
+					className="hidden sm:block"
 				/>
 				<div className="col-span-2 col-start-2 flex flex-col justify-start items-center gap-2">
 					<h2 className="font-bold capitalize text-lg text-center w-full my-2">

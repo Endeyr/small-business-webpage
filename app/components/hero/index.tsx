@@ -5,11 +5,11 @@ import Container from '../container'
 const Hero = () => {
 	return (
 		<Container
-			className="bg-no-repeat bg-cover bg-center dark:text-white flex flex-col justify-start items-start"
+			className="bg-no-repeat bg-cover bg-center dark:text-white flex flex-col xl:justify-start xl:items-start justify-center items-center"
 			style={{ backgroundImage: 'url(' + heroBg.src + ')' }}
 			id="hero-section"
 		>
-			<div className="w-1/2 h-full flex flex-col justify-between gap-4 items-start">
+			<div className="xl:w-1/2 w-full h-full flex flex-col justify-between gap-4 items-start">
 				<h2 className="font-bold outline-black capitalize text-4xl text-center w-full my-4">
 					Welcome to Apollo&apos;s Rescue
 				</h2>

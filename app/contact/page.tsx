@@ -20,7 +20,7 @@ const ContactPage = () => {
 						touch with more information on how you can get involved.
 					</p>
 					<h3 className="text-center font-bold">Contact Form</h3>
-					<form className="grid grid-cols-2 justify-center items-center gap-2">
+					<form className="xl:grid xl:grid-cols-2 flex flex-col justify-center items-center gap-2">
 						<Input
 							type="text"
 							name="first name"
@@ -68,20 +68,21 @@ const ContactPage = () => {
 						Visit Us Today
 					</h3>
 					<div className="flex flex-col justify-evenly items-center">
-						<p className="flex w-1/4 justify-between">
+						<p className="flex xl:w-1/4 justify-between w-full">
 							Visit Us:
-							<span>Mount Olympus, Greece</span>
+							<span className="text-right">Mount Olympus, Greece</span>
 						</p>
-						<p className="flex w-1/4 justify-between">
-							Hours of Operation: <span>Open 7 days a week</span>
+						<p className="flex xl:w-1/4 justify-between w-full">
+							Hours of Operation:{' '}
+							<span className="text-right">Open 7 days a week</span>
 						</p>
-						<p className="flex w-1/4 justify-between">
-							Phone: <span>555-555-5555</span>
+						<p className="flex xl:w-1/4 justify-between w-full">
+							Phone: <span className="text-right">555-555-5555</span>
 						</p>
-						<p className="flex w-1/4 justify-between">
-							Email: <span>apollo@olympus.org</span>
+						<p className="flex xl:w-1/4 justify-between w-full">
+							Email: <span className="text-right">apollo@olympus.org</span>
 						</p>
-						<div className="flex w-1/4 justify-center items-center gap-4 mt-2">
+						<div className="flex xl:w-1/4 justify-center items-center gap-4 mt-2 w-full">
 							<Link href="#">
 								<FaFacebook size={35} />
 							</Link>

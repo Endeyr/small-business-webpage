@@ -8,7 +8,7 @@ const Container: React.FC<ContainerProps> = ({
 	...props
 }) => {
 	const baseClasses: string =
-		'space-y-10 md:space-y-16 flex w-full min-h-[calc(100vh-100px)] items-center justify-center  p-[50px]'
+		'space-y-10 md:space-y-16 flex w-full xl:min-h-[calc(100vh-100px)] items-center justify-center  p-[50px]'
 
 	const mergedClasses: string = twMerge([baseClasses, className])
 	return (

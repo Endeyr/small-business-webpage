@@ -7,7 +7,7 @@ const Testimonials = () => {
 			<h2 className="font-bold outline-black capitalize text-4xl text-center w-full">
 				Testimonials
 			</h2>
-			<div className="flex w-full justify-between items-start">
+			<div className="flex flex-col xl:flex-row gap-4 w-full justify-center items-center">
 				<ContentCard title="5 out of 5 stars!" footer="- Zeus">
 					&quot;Visiting Apollo&apos;s Rescue was an unforgettable experience!
 					The dedication of the staff to the well-being of the wolves is truly

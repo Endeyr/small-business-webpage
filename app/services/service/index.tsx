@@ -25,7 +25,13 @@ const Service: React.FC<ServiceProps> = ({
 	if (imgSide === 'left') {
 		layout = (
 			<>
-				<Image src={imgSrc} alt={imgAlt} width={650} height={300} />
+				<Image
+					src={imgSrc}
+					alt={imgAlt}
+					width={650}
+					height={300}
+					className="hidden xl:block"
+				/>
 				<div
 					className="col-span-2 col-start-2 flex flex-col justify-start items-center"
 					{...props}
@@ -41,10 +47,10 @@ const Service: React.FC<ServiceProps> = ({
 		layout = (
 			<>
 				<div
-					className="col-span-2 col-start-1 flex flex-col justify-start items-center"
+					className="col-span-2 col-start-1 flex flex-col justify-start items-center "
 					{...props}
 				>
-					<h3 className="font-bold capitalize text-lg text-center w-full my-2">
+					<h3 className="font-bold capitalize text-lg text-center w-full my-2 text-wrap">
 						{title}
 					</h3>
 					<p className="px-4">{paragraph}</p>
@@ -54,7 +60,7 @@ const Service: React.FC<ServiceProps> = ({
 					alt={imgAlt}
 					width={650}
 					height={300}
-					className="col-start-3"
+					className="col-start-3 hidden xl:block"
 				/>
 			</>
 		)

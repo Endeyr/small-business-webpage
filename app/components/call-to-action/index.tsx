@@ -17,7 +17,7 @@ const CallToAction = () => {
 				lives of these majestic creatures. Join Apollo&apos;s Rescue and be a
 				voice for the voiceless.
 			</p>
-			<form className="grid grid-cols-2 justify-center items-center gap-2">
+			<form className="xl:grid xl:grid-cols-2 flex flex-col justify-center items-center gap-2">
 				<Input
 					type="text"
 					name="first name"

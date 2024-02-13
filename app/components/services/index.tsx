@@ -7,7 +7,7 @@ const Services = () => {
 			<h2 className="font-bold outline-black capitalize text-4xl text-center w-full">
 				Services
 			</h2>
-			<div className="flex w-full justify-between items-start">
+			<div className="flex flex-col xl:flex-row w-full justify-center items-center gap-4">
 				<ContentCard title="Sanctuary and Rehabilitation">
 					Providing a safe and nurturing environment for wolves rescued from
 					various situations such as abuse, neglect, or displacement, offering
