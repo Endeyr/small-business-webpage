@@ -87,10 +87,5 @@ By following this approach, Apollo's Rescue can quickly launch its MVP, gather v
 ## TODO
 
 - add form functionality
-- mobile friendly each page
-- create donate pop out model or full page?
-- login / out features?
-- chat pop out model for AI?
-- Look at other sites for ideas on other features
-- upload to vercel
+- create donate pop out model
 - add analytics, meta data, seo optimization
