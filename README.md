@@ -1,3 +1,9 @@
+# Non-Profit Website
+
+## Description
+
+This website was built using next-js. Information about the business was generated using Chat-GPT 3.5. Images were obtained from unsplash.com using their free use tos. This project was a challenge to build an example website to be used by a small business. If you would like to use this as a layout, feel free to download. 
+
 **MVP**
 
 **Product Name:** Apollo's Rescue
@@ -83,8 +89,3 @@ Apollo's Rescue is a basic website platform tailored for small businesses to est
    - Consider options for hosting, infrastructure, and maintenance.
 
 
-## TODO
-
-- add form functionality
-- create donate pop out model
-- add analytics, meta data, seo optimization
